@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export VENDOR=htc
-export DEVICE=hiae-common
+export VENDOR=xiaomi
+export DEVICE=kenzo
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
@@ -110,7 +110,7 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifneq (\$(filter hiaeul hiaeuhl,\$(TARGET_DEVICE)),)
+ifneq (\$(filter kenzo,\$(TARGET_DEVICE)),)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := TimeService

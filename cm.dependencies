@@ -1,7 +1,7 @@
 [
   {
-    "repository": "android_kernel_htc_msm8952",
-    "target_path": "kernel/htc/msm8952"
+    "repository": "android_kernel_xiaomi_kenzo",
+    "target_path": "kernel/xiaomi/kenzo"
   },
   {
     "repository": "android_device_qcom_common",
